@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Component
-public class ProductGatewayImpl implements ProductGateway{
+public class ProductGatewayImpl implements ProductGateway {
 
     FakeStoreProductApi fakeStoreProductApi;
 

@@ -2,14 +2,14 @@ package org.example.ecommercespring.dto;
 
 import lombok.*;
 
-@Setter
 @Getter
-@AllArgsConstructor
+@Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
-public class FakeStoreCategoryDTO {
-    private String id;
-    private String name;
-    private String slug;
-    private String image;
+public class FakeStoreCategoryDTO{
+	private String image;
+	private String name;
+	private Integer id;
+	private String slug;
 }

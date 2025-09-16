@@ -8,6 +8,5 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class CategoryDTO {
-
     private String type;
 }
